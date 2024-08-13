@@ -8,7 +8,6 @@ import Pesquisa from './componentes/pesquisa';
 const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(90deg, #002F52 35%, #326589);
 `
 //Para criar um estilo global é necessário ir em index.js e importar { createGlobaStyle }
 

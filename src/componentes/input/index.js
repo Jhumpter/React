@@ -13,7 +13,7 @@ const Input = styled.input`
 
     &::placeholder {
             color: white;
-            font-size: 16px;
+            font-size: 14.5px;
     }
 `
 export default Input 
