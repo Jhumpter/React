@@ -4,6 +4,7 @@ import styled from 'styled-components';
 //Com styled components é possível excluir o css de containers passando a estilização para a página principal
 //É possível exportar um componente já estilizado usando styled(componente)
 import Pesquisa from './componentes/pesquisa';
+import Lancamentos from './componentes/lancamentos';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -18,6 +19,7 @@ function App() {
     <AppContainer>
       <Header/>
       <Pesquisa/>
+      <Lancamentos/>
     </AppContainer>
   );
 }
